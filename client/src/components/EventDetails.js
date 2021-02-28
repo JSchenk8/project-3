@@ -181,13 +181,10 @@ export default function singleEventPage({ match, history }) {
                     </div>}
                 </div>
                 : <EventUpdateForm
-                  // handleSave={handleSave}
-                  // handleFormChange={handleFormChange}
                   formData={formData}
                   updateFormData={updateFormData}
                   changeEditState={changeEditState}
                   id={id}
-                // errors={errors}
                 />
               }
             </div>
